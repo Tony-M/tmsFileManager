@@ -1,0 +1,33 @@
+body {
+    background-color: #fafafa;
+}
+
+.media {
+    margin: 8px;
+}
+
+img.media-object {
+    height: 32px;
+    width: 32px;
+}
+
+h4, .h4 , h4.media-heading{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+
+.entry {
+    /*border-radius: 3px;*/
+    /*background-color: #373743;*/
+    background-color: #fafafa;
+    border: 1px solid #f8f8f8;
+    padding-top: 8px;
+}
+
+.entry:hover {
+    background: #fcfcfc;
+}
+
+.filesize{font-size: 10px; color:#777}
+
+a.download{font-size: 10px;}
