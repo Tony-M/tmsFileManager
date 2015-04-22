@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/jquery-1.11.2.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script>
         var selected_file = {title:'', path:''};
         function select_file(a_obj){
@@ -46,7 +46,7 @@
                         <div class="media-left">
                             <a href="#">
                                 <img class="media-object"
-                                     src="/images/<?php echo tmsFileManager::getIco($folder['title'], true); ?>"
+                                     src="images/<?php echo tmsFileManager::getIco($folder['title'], true); ?>"
                                      data-holder-rendered="true">
                             </a>
                         </div>
@@ -66,7 +66,7 @@
                         <div class="media-left">
                             <a href="#">
                                 <img class="media-object"
-                                     src="/images/<?php echo tmsFileManager::getIco($file['title']); ?>"
+                                     src="images/<?php echo tmsFileManager::getIco($file['title']); ?>"
                                      data-holder-rendered="true">
                             </a>
                         </div>
